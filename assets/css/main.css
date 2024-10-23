@@ -183,6 +183,18 @@ input, select, textarea {
 		letter-spacing: -0.015em;
 	}
 
+	h4 {
+		font-size: 1.2em; /* 自訂 h4 標題的大小 */
+	}
+	
+	h5 {
+		font-size: 1em; /* 自訂 h5 標題的大小 */
+	}
+	
+	h6 {
+		font-size: 0.8em; /* 自訂 h6 標題的大小 */
+	}
+
 	em, i {
 		font-style: italic;
 	}
@@ -1686,8 +1698,8 @@ input, select, textarea {
 		text-shadow: -1px -1px 0.5px rgba(0, 0, 0, 0.5);
 		overflow: hidden;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
-		background-color: #253439;
-		padding: 1em 2.35em 1em 2.35em;
+		background-color: #6c757d;
+		padding: 0.25em 3.3em 0.25em 3.3em;
 		font-size: 1.1em;
 		max-width: 24em;
 	}
@@ -2254,7 +2266,7 @@ input, select, textarea {
 			}
 
 			h1, h2, h3, h4, h5, h6 {
-				font-size: 1.25em;
+				font-size: 1.4em;
 				margin: 0 0 0.4em 0;
 			}
 
