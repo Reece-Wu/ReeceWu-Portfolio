@@ -2463,3 +2463,8 @@ input, select, textarea {
 		border-radius: 5px;
 		text-decoration: none; /* 去掉下劃線 */
 	}
+
+	#lang-zh:active, #lang-en:active, #lang-zh:focus, #lang-en:focus {
+    		color: #4c936e !important; /* 點擊或聚焦時保持文字顏色 */
+    		outline: none; /* 移除點擊後的邊框 */
+	}
