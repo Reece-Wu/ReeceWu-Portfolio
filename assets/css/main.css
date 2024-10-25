@@ -2456,3 +2456,10 @@ input, select, textarea {
 					}
 
 	}
+
+	#lang-zh, #lang-en {
+    		color: #4c936e !important;/* 文字顏色 */
+		padding: 5px 10px;
+		border-radius: 5px;
+		text-decoration: none; /* 去掉下劃線 */
+	}
