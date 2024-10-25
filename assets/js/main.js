@@ -25,10 +25,33 @@
 			}, 100);
 		});
 
+		// Default language setup (Chinese)
+		switchLanguage('zh'); // 預設為中文
+
 	// Scrolly.
 		$('#nav a, .scrolly').scrolly({
 			speed: 1000,
 			offset: function() { return $nav.height(); }
 		});
+
+	// Language switcher function
+	function switchLanguage(lang) {
+		document.querySelectorAll('[data-lang-zh], [data-lang-en]').forEach(function(el) {
+			if (lang === 'zh') {
+				el.textContent = el.getAttribute('data-lang-zh');
+			} else if (lang === 'en') {
+				el.textContent = el.getAttribute('data-lang-en');
+			}
+		});
+	}
+
+	// Event listeners for language buttons
+	document.getElementById('lang-zh').addEventListener('click', function() {
+		switchLanguage('zh');
+	});
+
+	document.getElementById('lang-en').addEventListener('click', function() {
+		switchLanguage('en');
+	});
 
 })(jQuery);
